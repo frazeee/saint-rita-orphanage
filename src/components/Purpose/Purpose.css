@@ -1,0 +1,14 @@
+.card-design {
+  background-color: #e4e2fc;
+  border: none;
+}
+
+hr {
+  border: 3px solid #e4e2fc;
+  opacity: 100%;
+}
+
+.hr-alt {
+  border: 3px solid black;
+  opacity: 100%;
+}
