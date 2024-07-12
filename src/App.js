@@ -5,16 +5,20 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import Programs from "./components/Programs/Programs";
 import Purpose from "./components/Purpose/Purpose";
 import Gallery from "./components/Gallery/Gallery";
+import Test from "./components/test";
 
 function App() {
   return (
     <>
-      <Navbar />
       <Hero />
-      <AboutUs/>
-      <Programs/>
-      <Purpose/>
-      <Gallery/>
+
+      <AboutUs />
+      <Purpose />
+      {/* 
+      <Programs />
+      <Purpose />
+      <Gallery /> */}
+      {/* <Test /> */}
     </>
   );
 }

@@ -3,7 +3,7 @@ import "./Gallery.css"
 
 import Image1 from "../../images/1.jpeg";
 import Image2 from "../../images/2.jpeg";
-import Image3 from "../../images/3.jpeg";
+
 import Image4 from "../../images/4.jpeg";
 import Image5 from "../../images/5.jpeg";
 import Image6 from "../../images/6.jpeg";

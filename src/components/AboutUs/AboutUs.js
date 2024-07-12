@@ -4,7 +4,7 @@ import "./Section2.css";
 
 function AboutUs() {
   return (
-    <div className="img-container">
+    <div className="img-container mb-5 z-3">
       <div className="spacer">
         <img src={Clouds} className="img-fluid overflow-x-hidden" />
         <div className="row justify-content-center">
@@ -23,7 +23,7 @@ function AboutUs() {
                 valuable contributors to both the Church and society.
               </p>
             </div>
-            <div className="card shadow rounded">
+            <div className="card shadow rounded mb-5">
               <div className="card-body text-center py-4 px-3">
                 <p className="mb-4">
                   Founded in 1965 by the late Mother Carmen Alba, A.R., our

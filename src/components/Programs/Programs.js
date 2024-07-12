@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Programs.css";
 import icon1 from "../../images/icons/image 157.png";
 
-import rightImage from "../../images/3.jpeg";
+import rightImage from "../../images/1.jpeg";
 
 const cardData = [
   { icon: icon1, title: "Placement of Children" },
