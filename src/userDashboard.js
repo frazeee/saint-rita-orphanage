@@ -48,11 +48,8 @@ function Test() {
       </nav>
 
       <div class="container-fluid mt-3 px-5 py-3">
-        <div class="d-flex justify-content-between">
+        <div>
           <h2>Welcome back, Nigger!</h2>
-          <button class="btn btn-link text-primary">
-            Logout <i class="bi bi-arrow-right"></i>
-          </button>
         </div>
         <div
           class="card bg-secondary py-2 px-3 mb-3"
@@ -221,6 +218,7 @@ function Test() {
                         <p class="fw-light">Organizer Name</p>
                       </div>
                     </li>
+                    
                   </ul>
                 </div>
               </div>

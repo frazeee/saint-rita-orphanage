@@ -1,4 +1,12 @@
 .two-stack{
-    width: 350px;
-    height: 350px;
+    height: 265px;
+}
+
+.full-horizontal{
+    max-width: 750px;
+    max-height: 700px;
+}
+
+.full-vertical{
+
 }

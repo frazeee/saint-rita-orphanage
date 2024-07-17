@@ -1,0 +1,14 @@
+.bg-image {
+  background-image: url("../../images/entrance.jpeg");
+  background-size: cover;
+}
+
+.mask {
+  position: "absolute";
+  top: 0;
+  left: 0;
+  width: "100%";
+  height: "100%";
+  background-color: "#e4e2fc";
+  opacity: 1;
+}

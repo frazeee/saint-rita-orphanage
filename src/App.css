@@ -1,5 +1,9 @@
 body {
   font-family: "Lexend Deca", sans-serif;
   overflow-x: hidden;
+}
+
+html {
+  height: 100%;
   margin: 0;
 }

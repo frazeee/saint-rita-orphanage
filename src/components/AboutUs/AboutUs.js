@@ -4,16 +4,16 @@ import "./Section2.css";
 
 function AboutUs() {
   return (
-    <div className="img-container mb-5 z-3">
+    <div className="img-container h-100 z-1">
       <div className="spacer">
         <img src={Clouds} className="img-fluid overflow-x-hidden" />
-        <div className="row justify-content-center">
-          <div className=" col-md-8 col-lg-6 centered">
+        <div className="row justify-content-center h-100 " >
+          <div className=" col-md-10 col-lg-8 centered">
             <div className="text-center mb-3">
               <h3 className="" style={{ color: "#2EC2F1" }}>
                 About Us
               </h3>
-              <h1 className="heading mb-3" style={{ fontSize: "3.5em" }}>
+              <h1 className="heading mb-3" style={{ fontSize: "4.5vw" }}>
                 Saint Rita Orphanage
               </h1>
               <p>

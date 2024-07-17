@@ -103,7 +103,15 @@ function Hero() {
         data-bs-ride="carousel"
       >
         <div class="carousel-inner h-50">
-        <div class="position-absolute top-50 start-50 translate-middle z-3"><h1 className="text-white text-center">The Sanctuary of Love, Hope, and Blessings</h1></div>
+          <div class="position-absolute top-50 start-50 translate-middle z-3">
+            <h1 className="text-white text-center">
+              {" "}
+              Welcome to Saint Rita Orphanage!
+            </h1>
+            <h4 className="text-white text-center">
+              The Sanctuary of Love, Hope, and Blessings
+            </h4>
+          </div>
           <div class="carousel-item active">
             <img src={headerBanner} class="d-block w-100" alt="..." />
             <div class="carousel-mask"></div>

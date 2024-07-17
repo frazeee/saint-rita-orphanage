@@ -1,7 +1,7 @@
 .img-container {
   position: relative;
   width: 100%;
-  height: 100vh;
+  min-height: max-content;
 }
 
 .centered {
@@ -9,44 +9,44 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -25%);
-
 }
 
-.spacer{
+.spacer {
   margin-top: -12%;
 }
 
 @media only screen and (max-width: 1024px) {
-  .img-container{
-    height: 75vh;
+  .img-container {
+    margin-bottom: 20%;
   }
 
   .centered {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -20%);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .img-container{
-    height: 75vh;
+  .img-container {
+    margin-bottom: 25%;
   }
 
   .centered {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -20%);
   }
 }
 
 @media only screen and (max-width: 425px) {
-  .img-container{
-    height: 75vh;
+  .img-container {
+    height: 2vh;
+    margin-bottom: 35%;
   }
-  
+
   .centered {
     position: absolute;
     top: 50%;
@@ -54,4 +54,3 @@
     transform: translate(-50%, -35%);
   }
 }
-
