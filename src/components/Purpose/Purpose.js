@@ -5,7 +5,7 @@ import rightImage from "../../images/8.jpeg";
 
 function Purpose() {
   return (
-    <div className="py-3 pb-5 z-1" style={{ backgroundColor: "#FFF0EC" }}>
+    <section className="py-3 pb-5 z-1" style={{ backgroundColor: "#FFF0EC" }}>
       <h2
         className="heading text-center mt-5 me-3"
         style={{ fontSize: "3.5em" }}
@@ -52,7 +52,7 @@ function Purpose() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

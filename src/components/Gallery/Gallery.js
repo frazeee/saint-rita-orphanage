@@ -10,17 +10,17 @@ import Image6 from "../../images/6.jpeg";
 
 const Gallery = () => {
   return (
-    <>
+    <section>
       <div className="container mt-5">
-        <h1
-          className="heading text-center"
-          style={{ fontSize: "3.5em" }}
-        >
+        <h1 className="heading text-center" style={{ fontSize: "3.5em" }}>
           Our Gallery
         </h1>
+        <div className="d-flex justify-content-center">
+          <hr className="w-25 mb-3" />
+        </div>
       </div>
       <div className="w-100">
-        <Marquee pauseOnHover style={{ height: "650px" }}>
+        <Marquee pauseOnClick style={{ height: "650px" }}>
           <div>
             <img
               src={Image1}
@@ -49,10 +49,10 @@ const Gallery = () => {
               className="rounded h-100 mx-3"
               style={{ objectFit: "cover", maxHeight: "560px" }}
             />
-          </div> 
+          </div>
         </Marquee>
       </div>
-    </>
+    </section>
   );
 };
 
