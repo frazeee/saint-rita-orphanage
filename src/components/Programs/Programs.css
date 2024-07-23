@@ -3,8 +3,12 @@
   transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
   overflow: hidden;
   border-radius: 20px;
-  min-height: 450px;
+  min-height: 400px;
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+
+  @media (max-width: 1024px) {
+    min-height: 400px;
+  }
 
   @media (max-width: 768px) {
     min-height: 350px;
@@ -16,7 +20,9 @@
 
   &.card-has-bg {
     transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
-    background-size: cover;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center center;
     &:before {
       content: "";
       -webkit-filter: grayscale(1);
@@ -37,7 +43,7 @@
         background: rgb(255, 255, 255);
         background: linear-gradient(
           0deg,
-          rgba(215, 217, 255, 0.5) 0%,
+          rgba(215, 217, 255, 0.3) 0%,
           #e4e2fc 100%
         );
       }
@@ -69,7 +75,26 @@
     background: linear-gradient(
       0deg,
       rgba(215, 217, 255, 0.1) 0%,
-      rgba(228, 226, 252, 1)
+      rgba(228, 226, 252, 0.8)
     );
   }
+}
+
+.card-img {
+  min-height: 400px;
+
+  @media (max-width: 768px) {
+    min-height: 350px;
+    width: 120%;
+  }
+
+  @media (max-width: 420px) {
+    min-height: 300px;
+  }
+}
+
+.bg-cloud {
+  background-image: url("../../images/backgrounds/cloud-bg.png");
+  background-size: 100%;
+  background-repeat: repeat;
 }

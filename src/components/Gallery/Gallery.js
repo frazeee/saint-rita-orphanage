@@ -16,7 +16,7 @@ const Gallery = () => {
           Our Gallery
         </h1>
         <div className="d-flex justify-content-center">
-          <hr className="w-25 mb-3" />
+          <hr className="w-25" />
         </div>
       </div>
       <div className="w-100">

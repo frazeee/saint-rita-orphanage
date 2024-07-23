@@ -1,12 +1,14 @@
 import "./ContactUs.css";
 import mapIcon from "../../images/icons/contact-us/map-icon.png";
 import envelopeIcon from "../../images/icons/contact-us/envelope-icon.png";
+import phoneIcon from "../../images/icons/contact-us/phone-icon.png";
+import facebookIcon from "../../images/icons/contact-us/facebook-icon.png";
 
 const ContactUs = () => {
   return (
-    <section>
+    <section className="shadow">
       <div className="container-fluid bg-image mt-5 py-5 shadow">
-        <div className="d-flex h-100 flex-column align-items-center justify-content-center">
+        <div className="d-flex h-100 flex-column align-items-center justify-content-center my-5">
           <div className="card w-75">
             <div className="card-body">
               <div className="row h-100">
@@ -20,7 +22,12 @@ const ContactUs = () => {
                   ></iframe>
                 </div>
                 <div className="col-lg-6">
-                  <h1 className="text-center heading my-3"style={{fontSize:"3em"}}>Schedule a visit!</h1>
+                  <h1
+                    className="text-center heading my-3"
+                    style={{ fontSize: "3em" }}
+                  >
+                    Schedule a visit!
+                  </h1>
                   <div className="row">
                     <div className="col-md-6 col-lg-6 p-3">
                       <div className="d-flex flex-column justify-content-center align-items-center shadow h-100 p-3 hover-animation">
@@ -50,7 +57,7 @@ const ContactUs = () => {
                     <div className="col-md-6 col-lg-6 p-3">
                       <div className="d-flex flex-column justify-content-center align-items-center shadow h-100 p-3 hover-animation">
                         <img
-                          src={envelopeIcon}
+                          src={phoneIcon}
                           className="img-fluid mb-3"
                           style={{ maxWidth: "50px" }}
                         />
@@ -58,18 +65,17 @@ const ContactUs = () => {
                         <span className="text-center">725 47 891</span>
                         <span className="text-center">(+63) 905 545 8601</span>
                         <p className="text-center">(+63) 908 312 2530</p>
-                 
                       </div>
                     </div>
                     <div className="col-md-6 col-lg-6 p-3">
                       <div className="d-flex flex-column justify-content-center align-items-center shadow h-100 p-3 hover-animation">
                         <img
-                          src={envelopeIcon}
+                          src={facebookIcon}
                           className="img-fluid mb-3"
                           style={{ maxWidth: "50px" }}
                         />
-                        <h5 className="contact-title text-center">EMAIL:</h5>
-                        <p className="text-center">sro64hoc@yahoo.com.ph</p>
+                        <h5 className="contact-title text-center">FACEBOOK:</h5>
+                        <p className="text-center">Saint Rita Orphanage</p>
                       </div>
                     </div>
                   </div>

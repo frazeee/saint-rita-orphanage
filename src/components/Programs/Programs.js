@@ -20,7 +20,7 @@ const cardData = [
 
 function Programs() {
   return (
-    <div>
+    <div className="bg-cloud">
       <div className="container p-5 mb-5">
         <h1 className="heading text-center mb-2" style={{ fontSize: "3.5em" }}>
           Our Programs
@@ -33,7 +33,7 @@ function Programs() {
           {cardData.map((card) => (
             <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
               <div className="card text-dark card-has-bg card-style">
-                <img className="card-img" src={card.img} />
+                <img className="card-img img-fluid" src={card.img} />
                 <div className="card-img-overlay d-flex flex-column">
                   <div className="card-body">
                     <small className="card-meta mb-2">

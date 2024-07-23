@@ -5,6 +5,7 @@ import headerBanner2 from "../../images/carousel1.jpeg";
 import headerBanner3 from "../../images/carousel2.png";
 import headerBanner4 from "../../images/carousel3.png";
 
+
 function Hero() {
   useEffect(() => {
     const handleScroll = () => {
@@ -78,13 +79,12 @@ function Hero() {
 
       <div
         id="carouselExampleAutoplaying"
-        class="carousel slide carousel-fade "
+        class="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
         <div class="carousel-inner h-50">
-          <div class="position-absolute top-50 start-50 translate-middle z-3">
-            <h1 className="text-white text-center">
-              {" "}
+          <div class="position-absolute top-50 start-50 translate-middle z-2">
+            <h1 className="text-white text-center d-none d-lg-block">
               Welcome to Saint Rita Orphanage!
             </h1>
             <h4 className="text-white text-center">
@@ -109,7 +109,7 @@ function Hero() {
           </div>
         </div>
         <button
-          class="carousel-control-prev z-3"
+          class="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="prev"
@@ -118,7 +118,7 @@ function Hero() {
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next z-3"
+          class="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="next"

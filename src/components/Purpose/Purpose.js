@@ -1,11 +1,11 @@
-import React, { useState } from "react";
 import "./Purpose.css";
 
+import leftImage from "../../images/2.jpeg";
 import rightImage from "../../images/8.jpeg";
 
 function Purpose() {
   return (
-    <section className="py-3 pb-5 z-1" style={{ backgroundColor: "#FFF0EC" }}>
+    <section className="py-3 pb-5" style={{ backgroundColor: "#FFF0EC" }}>
       <h2
         className="heading text-center mt-5 me-3"
         style={{ fontSize: "3.5em" }}
@@ -17,10 +17,10 @@ function Purpose() {
       </div>
 
       <div className="container">
-        <div className="row">
+        <div className="row animated animatedFadeInUp fadeInUp">
           <div className="col-md-6 col-sm-12 mb-3">
             <div class="card shadow">
-              <img src={rightImage} class="card-img-top" alt="..." />
+              <img src={leftImage} class="card-img-top" alt="..." />
               <div class="card-body px-3 text-center mb-3">
                 <h2 class="card-title text-center heading fw-semibold">
                   Our Mission
