@@ -1,15 +1,17 @@
 import React, { useEffect } from "react";
 import "./Hero.css";
+
+import logoIcon from "../../images/icons/logo-2.png";
 import headerBanner from "../../images/carousel.png";
 import headerBanner2 from "../../images/carousel1.jpeg";
 import headerBanner3 from "../../images/carousel2.png";
 import headerBanner4 from "../../images/carousel3.png";
 
-
 function Hero() {
   useEffect(() => {
     const handleScroll = () => {
       const navbar = document.getElementById("navbar");
+
       if (window.scrollY > 50) {
         navbar.classList.add("scrolled");
       } else {
@@ -28,11 +30,18 @@ function Hero() {
       <div>
         <nav
           id="navbar"
-          className="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top px-4"
+          className="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top"
         >
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
-              Saint Rita Orphanage
+            <a className="navbar-brand mx-3" href="#">
+              <img
+                src={logoIcon}
+                id="logo"
+                className="icon"
+                alt="Bootstrap"
+                width="75"
+                height="35"
+              />
             </a>
             <button
               className="navbar-toggler"
@@ -48,26 +57,27 @@ function Hero() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
-                  <a
-                    className="nav-link active mx-3"
-                    aria-current="page"
-                    href="#"
-                  >
+                  <a id="home" className="nav-link mx-3 active">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link mx-3" href="#">
-                    About
+                  <a id="aboutUs" className="nav-link mx-3 active" href="#">
+                    About Us
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link mx-3" href="#">
+                  <a id="purpose" className="nav-link mx-3 active" href="#">
+                    Purpose
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a id="programs" className="nav-link mx-3 active" href="#">
                     Programs
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a id="contact" className="nav-link mx-3 active" href="#">
                     Contact
                   </a>
                 </li>

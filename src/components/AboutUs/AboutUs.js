@@ -10,12 +10,15 @@ function AboutUs() {
           <img src={Clouds} className="img-fluid " />
         </div>
         <div className="row justify-content-center ">
-          <div className="col-sm-10 col-md-10 col-lg-8 z-3 text-spacer">
+          <div className="col-sm-12 col-md-10 col-lg-8 z-3 text-spacer">
             <div className="text-center mb-3">
-              <h3 className="" style={{ color: "#2EC2F1" }}>
+              <h3 className="heading" style={{ fontSize: "3.5em" }}>
                 Our Story
               </h3>
-              <h1 className="heading mb-3" style={{ fontSize: "7.5vh" }}>
+              <h1
+                className="mb-3"
+                style={{ fontSize: "2.75em", color: "#2EC2F1" }}
+              >
                 Saint Rita Orphanage
               </h1>
               <p>

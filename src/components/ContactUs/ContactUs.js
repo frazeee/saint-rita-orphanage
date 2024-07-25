@@ -9,13 +9,13 @@ const ContactUs = () => {
     <section className="shadow">
       <div className="container-fluid bg-image mt-5 py-5 shadow">
         <div className="d-flex h-100 flex-column align-items-center justify-content-center my-5">
-          <div className="card w-75">
+          <div className="card w-75 shadow-lg">
             <div className="card-body">
               <div className="row h-100">
                 <div className="col-md-12 col-lg-6">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.5474289050785!2d121.03284747524955!3d14.453225786015855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cfcb644c27d5%3A0x5832a14b901d0498!2sSaint%20Rita%20Orphanage!5e0!3m2!1sen!2sph!4v1721624034237!5m2!1sen!2sph"
-                    className="w-100 h-100"
+                    className="w-100 h-100 img-fluid"
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"

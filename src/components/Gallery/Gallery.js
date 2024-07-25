@@ -6,7 +6,9 @@ import Image2 from "../../images/2.jpeg";
 
 import Image4 from "../../images/4.jpeg";
 import Image5 from "../../images/5.jpeg";
-import Image6 from "../../images/6.jpeg";
+import Image8 from "../../images/8.jpeg";
+import Image9 from "../../images/9.jpeg";
+import Image10 from "../../images/10.jpeg";
 
 const Gallery = () => {
   return (
@@ -25,6 +27,13 @@ const Gallery = () => {
             <img
               src={Image1}
               className="rounded mx-3 img-fluid full-horizontal"
+            />
+          </div>
+          <div className="h-100">
+            <img
+              src={Image10}
+              className="rounded h-100 mx-3"
+              style={{ objectFit: "cover", maxHeight: "560px" }}
             />
           </div>
           <div className="d-flex flex-column mx-3">
@@ -49,6 +58,22 @@ const Gallery = () => {
               className="rounded h-100 mx-3"
               style={{ objectFit: "cover", maxHeight: "560px" }}
             />
+          </div>
+          <div className="d-flex flex-column mx-3">
+            <div>
+              <img
+                src={Image8}
+                className="two-stack rounded my-3"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div>
+              <img
+                src={Image9}
+                className="two-stack rounded my-3 "
+                style={{ objectFit: "cover" }}
+              />
+            </div>
           </div>
         </Marquee>
       </div>
