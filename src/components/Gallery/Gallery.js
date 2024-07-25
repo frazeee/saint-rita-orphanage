@@ -12,8 +12,8 @@ import Image10 from "../../images/10.jpeg";
 
 const Gallery = () => {
   return (
-    <section>
-      <div className="container mt-5">
+    <section className="bg">
+      <div className="container">
         <h1 className="heading text-center" style={{ fontSize: "3.5em" }}>
           Our Gallery
         </h1>

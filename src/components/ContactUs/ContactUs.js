@@ -7,7 +7,7 @@ import facebookIcon from "../../images/icons/contact-us/facebook-icon.png";
 const ContactUs = () => {
   return (
     <section className="shadow">
-      <div className="container-fluid bg-image mt-5 py-5 shadow">
+      <div className="container-fluid bg-image py-5 shadow">
         <div className="d-flex h-100 flex-column align-items-center justify-content-center my-5">
           <div className="card w-75 shadow-lg">
             <div className="card-body">
@@ -51,7 +51,7 @@ const ContactUs = () => {
                           style={{ maxWidth: "50px" }}
                         />
                         <h5 className="contact-title text-center">EMAIL:</h5>
-                        <p className="text-center">sro64hoc@yahoo.com.ph</p>
+                        <a href="mailto:sro64hoc@yahoo.com.ph" className="text-center">sro64hoc@yahoo.com.ph</a>
                       </div>
                     </div>
                     <div className="col-md-6 col-lg-6 p-3">
@@ -75,7 +75,7 @@ const ContactUs = () => {
                           style={{ maxWidth: "50px" }}
                         />
                         <h5 className="contact-title text-center">FACEBOOK:</h5>
-                        <p className="text-center">Saint Rita Orphanage</p>
+                        <a href="https://www.facebook.com/SaintRitaOrphanage" className="text-center">Saint Rita Orphanage</a>
                       </div>
                     </div>
                   </div>
